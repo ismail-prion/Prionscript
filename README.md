@@ -4,7 +4,7 @@ A complete programming language interpreter. Written in C++17. Built solo, on a 
 
 **Status: FOR SALE** — full source code, documentation, and ownership transfer.
 Asking: $4,000 – $5,000 (negotiable)
-Contact: qhmw2qfph4eg@mail.dpdns.org
+Contact: ismail998213@gmail.com
 
 Live showcase page (features, stats, live output demo): *[https://youtube.com/shorts/AmdriDFzKgE?si=9JE_urHSiQd6mL7S]*
 
