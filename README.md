@@ -105,3 +105,4 @@ repository.
 
 **Contact:** ismail998213@gmail.com
 
+Built in 20 days using AI-assisted development.
