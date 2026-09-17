@@ -3,7 +3,7 @@
 A complete programming language interpreter. Written in C++17. Built solo, on a phone, in Syria.
 
 **Status: FOR SALE** — full source code, documentation, and ownership transfer.
-Asking: $15,000 – $22,000 (negotiable)
+Asking: $4,000 – $5,000 (negotiable)
 Contact: qhmw2qfph4eg@mail.dpdns.org
 
 Live showcase page (features, stats, live output demo): *[https://youtube.com/shorts/AmdriDFzKgE?si=9JE_urHSiQd6mL7S]*
@@ -103,6 +103,5 @@ The full `prionscript.cpp` source and complete language specification are
 provided directly to serious buyers on request — not published in this
 repository.
 
-**Contact:** qhmw2qfph4eg@mail.dpdns.org
+**Contact:** ismail998213@gmail.com
 
-"Built solo by a 15-year-old, on a phone, in Syria.
