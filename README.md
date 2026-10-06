@@ -54,7 +54,7 @@ Prionscript is a dynamic scripting language with a full lexer, parser, AST, and 
 
 ## Built-in Libraries
 
-Math (trig, statistics, matrices, linear regression) · Networking (raw sockets + JSON-RPC) · Blockchain (Ethereum, contracts, DEX) · Crypto (Kyber, Dilithium, Argon2id, scrypt) · AI (Anthropic + Groq integration) · Neural networks (from-scratch sigmoid MLP) · Regex · Hardware I/O (GPIO, serial, battery, thermal) · Terminal (ANSI, instant key read)
+Math (trig, statistics, matrices, linear regression) · Networking (raw sockets + JSON-RPC) · Blockchain (Ethereum, contracts, DEX) · Crypto primitives (Argon2id, scrypt) · AI (Anthropic + Groq integration) · Neural networks (from-scratch sigmoid MLP) · Regex · Hardware I/O (GPIO, serial, battery, thermal) · Terminal (ANSI, instant key read)
 
 ---
 
