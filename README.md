@@ -62,43 +62,73 @@ Math (trig, statistics, matrices, linear regression) · Networking (raw sockets 
 
 Real Prionscript source, with the actual output captured from running it through the interpreter:
 
-```
+```prionscript
+Prionscript/main;
+{
+    func:factorial!(n) {
+        if (n <= 1) { return 1; }
+        return n * factorial(n - 1);
+    }
 
-func:factorial!(n) {
-if (n <= 1) { return 1; }
-return n * factorial(n - 1);
+    func:is_even!(n) {
+        return n % 2 == 0;
+    }
+
+    console:main!() {
+        output("=== Prionscript Demo ===");
+        output("factorial(5) = " + to_string(factorial(5)));
+
+        nums = [3, 8, 1, 9, 4];
+
+        sum = 0;
+        for n in nums {
+            sum = sum + n;
+        }
+        output("sum = " + to_string(sum));
+
+        for n in nums {
+            if n == 1 {
+                output("1 is one");
+            } elseif is_even(n) {
+                output(to_string(n) + " is even");
+            } else {
+                output(to_string(n) + " is odd");
+            }
+        }
+
+        people = { Ali: 25, Sara: 30 };
+        output("Ali is " + to_string(people.Ali));
+
+        output("sorted: " + to_string(sort(nums)));
+    }
 }
-
-console:main!() {
-output("factorial(6) = " + to_string(factorial(6)));
-
-}
-
 ```
 
 Output:
 
 ```
-
-factorial(6) = 720
-unsorted: [5, 3, 8, 1, 9, ]
-sorted:   [1, 3, 5, 8, 9, ]
-dict.name = Prion
-
+=== Prionscript Demo ===
+factorial(5) = 120
+sum = 25
+3 is odd
+8 is even
+1 is one
+Ali is 25
+sorted: [1, 3, 4, 8, 9, ]
 ```
 
 ---
 
-## Why it is available
+Why it is available
 
 A solo developer is moving on to a new project. Prionscript is complete, tested, and documented — a new owner can rename it, rebrand it, and ship it as their own from day one.
 
 ---
 
-## Full Source
+Full Source
 
-The full `prionscript.cpp` source and complete language specification are provided directly to serious buyers on request — not published in this repository.
+The full prionscript.cpp source and complete language specification are provided directly to serious buyers on request — not published in this repository.
 
-**Contact:** ismail998213@gmail.com
+Contact: ismail998213@gmail.com
 
-Built solo, on a phone, in 20 days.
+Built solo, on a phone, in 60 days
