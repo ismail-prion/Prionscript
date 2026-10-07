@@ -131,4 +131,4 @@ The full prionscript.cpp source and complete language specification are provided
 
 Contact: ismail998213@gmail.com
 
-Built solo, on a phone, in 60 days
+Built with ai tool With strict supervision, on a phone, in 60 days
